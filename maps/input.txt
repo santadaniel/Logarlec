@@ -1,0 +1,46 @@
+addRoom 6
+addRoom 3
+addRoom 7 toxic
+addRoom 4 cursed
+addRoom 8
+addRoom 2 toxic
+addRoom 4 cursed
+addRoom 5
+addRoom 3 toxic
+addRoom 3 
+addDoor Room#1 Room#7
+addDoor Room#1 Room#9
+addDoor Room#2 Room#8
+addDoor Room#2 Room#5
+addDoor Room#2 Room#3
+addDoor Room#3 Room#9
+addDoor Room#3 Room#7
+addDoor Room#4 Room#9
+addDoor Room#5 Room#10
+addDoor Room#5 Room#6
+addDoor Room#6 Room#7
+addDoor Room#8 Room#10
+addPlayer Levi Room#1
+addPlayer Gergo Room#1
+addPlayer Dani Room#1
+addPlayer Nori Room#1
+addPlayer Gulybi Room#1
+addNPC Prof Room#10
+addNPC Prof Room#10
+addNPC Prof Room#10
+addNPC Prof Room#1
+addNPC CleaningLady Room#8
+addItem AirConditioner Room#3
+addItem Logarlec Room#10
+addItem FakeLogarlec Room#4
+addItem WetSponge Room#2
+addItem Beer Room#4
+addItem Camembert Room#6
+addItem Transistor Room#7
+addItem Transistor Room#7
+addItem FFP2 Room#4
+addItem FakeFFP2 Room#3
+addItem TVSZ Room#7
+addItem FakeTVSZ Room#4
+addItem FFP2 Room#7
+save ./game.data
